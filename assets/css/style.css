@@ -1,4 +1,62 @@
+/*Import fonts from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=DM+Serif+Display&family=Dekko&display=swap');
+
+/*Background image*/
 body {
-    background-image: url("../images/crane2.png");
+    background-image: url("../images/crane3.png");
     background-repeat: repeat;
+}
+
+/*Navbar style*/
+nav {
+    background: #E7F3F9;
+    margin-bottom:20px;
+}
+.name {
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    padding-left:15px;
+    padding-right:15px;
+    color:#E7F3F9; 
+    background:#032F70;
+}
+
+/*Style for the main content of each page*/
+main{
+    background: #E7F3F9; 
+    padding:10px; 
+    margin: 3%
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    margin-bottom:0px;
+    color:#032F70; 
+}
+
+hr {
+    border:2px solid #032F70;
+    background:#032F70;
+    margin-top:5px;
+}
+
+/*index.html main content*/
+.profilepic {
+    width:100%;
+    margin-bottom:5%;
+}
+
+.bio {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/*portfolio.html main content*/
+.img-thumbnail {
+    margin:10px;
+    width:100%;
+    border: 3px solid #032F70;
 }
