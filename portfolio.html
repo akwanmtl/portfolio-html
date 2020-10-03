@@ -6,10 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/reset.css">
         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
         <link rel="stylesheet" href="./assets/css/style.css">
         
@@ -44,30 +49,122 @@
             </div>  
         </nav>
 
-        <main class="container-fluid" >
+        <div class="container-fluid" >
             <div class="row">
-                <div class="col-xs-12 col-sm-8" style="background: #E7F3F9; padding:10px; margin:3%">
-                    <section>
-                        <h1>Portfolio</h1>
-                        <hr>
-                        <div class="row justify-content-center" style="margin-left:1%; margin-right:1%"> 
-                            <div class="col-lg-6">
-                            <img src="./assets/images/matlabgui.PNG" alt="Matlab GUI" class="img-thumbnail">
+                <div class="col-xs-12 col-sm-8">
+                    <main class="container-fluid clearfix">
+                        <div class="maintitle">
+                            <h1>Portfolio</h1>
+                            <hr>
+                        </div>
+
+                        <div class="row"> 
+
+                            <div class="col-md-6 projectpics p-3">  
+                                <img src="./assets/images/coderefractorwebsite.png" alt="Code Refractor Website" class="img-thumbnail">
+
+                                <div class="overlay ">
+                                    <div class="overlay-text">
+                                        <h2>Code Refractor Website</h2>
+                                        <p>
+                                            The goal of the project is to make a website for accessible and to do code refractoring.
+                                        </p>
+                                        <a class="btn btn-outline-light" href="https://github.com/akwanmtl/Code-Refractor-on-Website" role="button">Github Repository</a>
+                                        <a class="btn btn-outline-light" href="https://akwanmtl.github.io/Code-Refractor-on-Website" role="button">Website</a>
+                                        
+                                    </div>
+                                </div>
+
                             </div>
 
-                            <div class="col-lg-6">
-                            <img src="./assets/images/koreanenglishwebsite.PNG" alt="Matlab GUI" class="img-thumbnail">
+                            <div class="col-xs-12 col-md-6 p-3 projectpics">
+                                <img src="./assets/images/matlabgui.PNG" alt="Matlab GUI screenshot" class="img-thumbnail">
+
+                                <div class="overlay ">
+                                    <div class="overlay-text">
+                                        <h2>Visualizer App</h2>
+                                        <p>
+                                            During university, I recorded neural activity for research. To be able to detect the times of the neural activity, I created a Matlab-based GUI to visualize the recording.
+                                        </p>
+
+                                        <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modalMatlab">
+                                            Short Demo
+                                          </button>
+                                                                                  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                            <img src="./assets/images/mathgamewebsite.PNG" alt="Matlab GUI" class="img-thumbnail">
+
+                            <div class="col-xs-12 col-md-6 p-3 projectpics">
+                                <img src="./assets/images/koreanenglishwebsite.PNG" alt="Korean-English language exchange website screenshot" class="img-thumbnail">
+
+                                <div class="overlay ">
+                                    <div class="overlay-text">
+                                        <h2>Korean-English lanugage exchange website</h2>
+                                        <p>
+                                            I was part of a Korean-English language exhange and I created a website that includes games to practice our conversational skills. I hosted this website on Blogspot before I knew Github.
+                                        </p>
+                                        <a class="btn btn-outline-light" href="https://talkenglishkoreangames.blogspot.com/" role="button">Website</a>
+                                        
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">  
-                            <img src="./assets/images/coderefractorwebsite.png" alt="Matlab GUI" class="img-thumbnail">
+
+                            <div class="col-xs-12 col-md-6 p-3 projectpics">
+                                <img src="./assets/images/mathgamewebsite.PNG" alt="24 math game website screenshot" class="img-thumbnail">
+
+                                <div class="overlay ">
+                                    <div class="overlay-text">
+                                        <h2>24 math game website</h2>
+                                        <p>
+                                            Prior to bootcamp, I had learned basic web coding. I created a webpage with the 24 math game. The goal of the game is to make 24 out of the 4 numbers. 
+                                        </p>
+                                        <a class="btn btn-outline-light" href="https://github.com/akwanmtl/mathgame" role="button">Github Repository</a>
+                                        <a class="btn btn-outline-light" href="https://akwanmtl.github.io/mathgame/" role="button">Website</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-md-6 p-3 projectpics">
+                                <img src="./assets/images/comingsoon.png" alt="Placeholder for upcoming project" class="img-thumbnail">
+                            </div>
+
+                            <div class="col-xs-12 col-md-6 p-3">
+                                <img src="./assets/images/comingsoon.png" alt="Placeholder for upcoming project" class="img-thumbnail">
+                            </div>
+
+                            <div class="col-xs-12 col-md-6 p-3">
+                                <img src="./assets/images/comingsoon.png" alt="Placeholder for upcoming project" class="img-thumbnail">
+                            </div>
+
+                            <div class="col-xs-12 col-md-6 p-3">
+                                <img src="./assets/images/comingsoon.png" alt="Placeholder for upcoming project" class="img-thumbnail">
+                            </div>
+                           
+                        </div>
+                    </main>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalMatlab" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document" >
+                        <div class="modal-content" style="background:#E7F3F9;">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Visualizer App Demo</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/matlabgui.gif" width=100%>
+                            </div>
                             </div>
                         </div>
-                    </section>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </main>
+        </div>
     </body>
 </html>
