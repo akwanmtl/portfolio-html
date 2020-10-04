@@ -23,6 +23,7 @@ nav {
 }
 
 /*Style for the main content of each page*/
+
 main{
     background: #E7F3F9; 
 
@@ -102,4 +103,9 @@ hr {
 
 .modal-title {
     color: #032F70;
+}
+
+.btn-primary{
+    background-color: #032F70;
+    color: #E7F3F9;
 }
