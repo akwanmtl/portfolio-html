@@ -12,6 +12,8 @@ nav {
     background: #E7F3F9;
     margin-bottom:20px;
 }
+
+/*logo name*/
 .name {
     font-weight: bold;
     font-family: 'DM Serif Display', serif;
@@ -23,14 +25,12 @@ nav {
 }
 
 /*Style for the main content of each page*/
-
-main{
+main, aside{
     background: #E7F3F9; 
-
 }
 
 .maintitle {
-    margin-top: 10px;
+    
     margin-left:5px;
     margin-right:5px;
 }
@@ -53,12 +53,14 @@ hr {
 .profilepic {
     width:100%;
     margin-bottom:5%;
+    border: 3px solid #032F70;
 }
 
 .bio {
     font-family: 'Asap Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
+
 
 /*portfolio.html main content*/
 .img-thumbnail {
@@ -66,6 +68,7 @@ hr {
     width: 100%;
 }
 
+/*overlay component styling starts here*/
 .projectpics {
     position:relative;
 }
@@ -96,7 +99,9 @@ hr {
 .overlay-text h2{
     font-size: 18px;
 }
+/*overlay component styling ends here*/
 
+/*modal component styling starts here*/
 .modal-content {
     background:#E7F3F9;
 }
@@ -104,7 +109,9 @@ hr {
 .modal-title {
     color: #032F70;
 }
+/*modal component styling ends here*/
 
+/*contact.html main content*/
 .btn-primary{
     background-color: #032F70;
     color: #E7F3F9;

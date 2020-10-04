@@ -4,32 +4,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--Reset stylesheet-->
         <link rel="stylesheet" href="./assets/css/reset.css">
         
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
-        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
+        <!--Bootstrap links-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
+        <!--Stylesheet link-->
         <link rel="stylesheet" href="./assets/css/style.css">
         
+        <!--title of webpage-->
         <title>Annie Kwan's Portfolio</title>
         
     </head>
 
     <body>
-        <header>
-        </header>
 
+        <!--Navigation bar starts here-->
         <nav class="navbar navbar-expand-sm navbar-light ">
             
             <div class="name">Annie Kwan</div> 
             
+            <!--Collapsible Navbar-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +40,7 @@
                         <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a> <!--Make Portfolio link active-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -48,21 +48,31 @@
                 </ul>
             </div>  
         </nav>
+        <!--Navigation bar ends here-->
 
+        <!--Portfolio section starts here-->
         <div class="container-fluid" >
             <div class="row">
+
+                <!--Make the main section take up 8 column width offset by 1 unless screen size is xs-->
                 <div class="col-xs-12 col-sm-8 offset-sm-1">
+
                     <main class="container-fluid clearfix">
+
+                        <!--Header for the Portfolio section-->
                         <div class="maintitle">
                             <h1>Portfolio</h1>
                             <hr>
                         </div>
 
+                        <!--Use row to allow for responsive layout-->
                         <div class="row"> 
 
+                            <!--Box 1 - Code refractor website-->
                             <div class="col-md-6 projectpics p-3">  
-                                <img src="./assets/images/coderefractorwebsite.png" alt="Code Refractor Website" class="img-thumbnail">
+                                <img src="./assets/images/coderefractorwebsite.png" alt="Code Refractor Website screenshot" class="img-thumbnail">
 
+                                <!--Overlay box-->
                                 <div class="overlay ">
                                     <div class="overlay-text">
                                         <h2>Code Refractor Website</h2>
@@ -77,9 +87,11 @@
 
                             </div>
 
+                            <!--Box 2 - Matlab Gui-->
                             <div class="col-xs-12 col-md-6 p-3 projectpics">
-                                <img src="./assets/images/matlabgui.PNG" alt="Matlab GUI screenshot" class="img-thumbnail">
+                                <img src="./assets/images/matlabgui.PNG" alt="Matlab GUI Visualize app" class="img-thumbnail">
 
+                                <!--Overlay box-->
                                 <div class="overlay ">
                                     <div class="overlay-text">
                                         <h2>Visualizer App</h2>
@@ -89,12 +101,13 @@
 
                                         <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modalMatlab">
                                             Short Demo
-                                          </button>
+                                        </button>
                                                                                   
                                     </div>
                                 </div>
                             </div>
 
+                            <!--Box 3 - Korean-English Language exchange website-->
                             <div class="col-xs-12 col-md-6 p-3 projectpics">
                                 <img src="./assets/images/koreanenglishwebsite.PNG" alt="Korean-English language exchange website screenshot" class="img-thumbnail">
 
@@ -110,6 +123,7 @@
                                 </div>
                             </div>
 
+                            <!--Box 4 - 24 Math game website-->
                             <div class="col-xs-12 col-md-6 p-3 projectpics">
                                 <img src="./assets/images/mathgamewebsite.PNG" alt="24 math game website screenshot" class="img-thumbnail">
 
@@ -126,6 +140,7 @@
                                 </div>
                             </div>
 
+                            <!--Box 5-8 - Placeholder box for future projects-->
                             <div class="col-xs-12 col-md-6 p-3 projectpics">
                                 <img src="./assets/images/comingsoon.png" alt="Placeholder for upcoming project" class="img-thumbnail">
                             </div>
@@ -145,26 +160,34 @@
                         </div>
                     </main>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="modalMatlab" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+                    <!-- Modal component for box 2 to view the gif of the matlab gui-->
+                    <div class="modal fade" id="modalMatlab" tabindex="-1" role="dialog" aria-labelledby="modalmatlabgui" aria-hidden="true">
                         <div class="modal-dialog" role="document" >
-                        <div class="modal-content" >
-                            <div class="modal-header">
-                            <h5 class="modal-title">Visualizer App Demo</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <div class="modal-content" >
+
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Visualizer App Demo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <img src="assets/images/matlabgui.gif" width=100%>
+                                </div>
+                                
                             </div>
-                            <div class="modal-body">
-                                <img src="assets/images/matlabgui.gif" width=100%>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
+                        </div>                        
                     </div>
+                    <!--Modal component ends here-->
 
                 </div>
             </div>
         </div>
+        <!--Portfolio section ends here-->
+
+
     </body>
 </html>
