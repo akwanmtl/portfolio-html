@@ -1,10 +1,12 @@
 /*Import fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=DM+Serif+Display&family=Dekko&display=swap');
 
+
 /*Background image*/
 body {
     background-image: url("../images/crane3.png");
     background-repeat: repeat;
+    margin-bottom:60px; /*same height as the footer*/
 }
 
 /*Navbar style*/
@@ -115,4 +117,40 @@ hr {
 .btn-primary{
     background-color: #032F70;
     color: #E7F3F9;
+}
+
+/*sticky footer*/
+/* footer {
+    position: fixed;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
+.footercontent{
+    background-color: #E7F3F9;
+    color: #032F70;
+    text-align: center;
+    font-size: 14px;
+    padding-top:10px;
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Fixed height for fotter*/
+    line-height: 55px; /* Vertically center text accounting for 5px for footerline */
+    background-color: #E7F3F9;
+    text-align: center;
+  }
+
+.footerline{
+    background-color: #032F70;
+    height:5px;
+    width:100%;
 }
