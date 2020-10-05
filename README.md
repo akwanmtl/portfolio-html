@@ -8,8 +8,8 @@ The website uses a Bootstrap framework for a responsive layout. For the projects
 
 ## Credits
 
-* [Bootstrap Documentation](https://getbootstrap.com/applied-accessibility/)
-* [w3schools tutorial on overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+* [Bootstrap documentation](https://getbootstrap.com/)
+* [W3schools tutorial on overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 * [License badge link](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
