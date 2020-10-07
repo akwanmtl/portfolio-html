@@ -4,7 +4,7 @@ Welcome to my porfolio
 ## Description
 This website is my online portfolio. It contains a section about me, a section to showcase my past projects and a section where you will be able to send me an email in the future (this is currently this being developed). 
 
-The website uses a Bootstrap framework for a responsive layout. For the projects sections, I integrated the use of overlay as one hovers over the project screenshot to give more details and links to the projects.
+The website uses a Bootstrap framework for a responsive layout. I created the background image inspired by origami crane designs. For the projects sections, I integrated the use of overlay as one hovers over the project screenshot to give more details and links to the projects.
 
 ## Credits
 
