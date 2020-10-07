@@ -16,7 +16,7 @@ nav {
 }
 
 /*logo name*/
-.name {
+.name a {
     font-weight: bold;
     font-family: 'DM Serif Display', serif;
     font-size: 24px;
@@ -26,8 +26,12 @@ nav {
     background:#032F70;
 }
 
+.name a:hover, .name a:visited {
+    text-decoration: none;
+}
+
 /*Style for the main content of each page*/
-main, aside{
+main, aside {
     background: #E7F3F9; 
 }
 
@@ -120,25 +124,6 @@ hr {
 }
 
 /*sticky footer*/
-/* footer {
-    position: fixed;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    
-}
-
-
-
-.footercontent{
-    background-color: #E7F3F9;
-    color: #032F70;
-    text-align: center;
-    font-size: 14px;
-    padding-top:10px;
-} */
-
 .footer {
     position: fixed;
     bottom: 0;
