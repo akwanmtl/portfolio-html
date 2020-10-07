@@ -6,6 +6,10 @@ This website is my online portfolio. It contains a section about me, a section t
 
 The website uses a Bootstrap framework for a responsive layout. I created the background image inspired by origami crane designs. For the projects sections, I integrated the use of overlay as one hovers over the project screenshot to give more details and links to the projects.
 
+Link to the Github repository: https://github.com/akwanmtl/portfolio
+
+Link to the website: https://akwanmtl.github.io/portfolio/
+
 ## Credits
 
 * [Bootstrap documentation](https://getbootstrap.com/)
