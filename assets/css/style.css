@@ -6,7 +6,7 @@
 body {
     background-image: url("../images/crane3.png");
     background-repeat: repeat;
-    margin-bottom:60px; /*same height as the footer*/
+    margin-bottom:70px; /*same height as the footer*/
 }
 
 /*Navbar style*/
@@ -57,14 +57,13 @@ hr {
 
 /*index.html main content*/
 .profilepic {
-    width:100%;
-    margin-bottom:5%;
+    max-width:210px; 
     border: 3px solid #032F70;
 }
 
 .bio {
     font-family: 'Asap Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
@@ -103,7 +102,7 @@ hr {
     padding-right:5px;
 }
 .overlay-text h2{
-    font-size: 18px;
+    font-size: 16px;
 }
 /*overlay component styling ends here*/
 
@@ -132,10 +131,5 @@ hr {
     line-height: 55px; /* Vertically center text accounting for 5px for footerline */
     background-color: #E7F3F9;
     text-align: center;
+    border-top: 5px solid #032F70;
   }
-
-.footerline{
-    background-color: #032F70;
-    height:5px;
-    width:100%;
-}
