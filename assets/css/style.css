@@ -66,6 +66,25 @@ hr {
     font-size: 20px;
 }
 
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+i {
+    color: #032F70;
+    font-size: 26px !important;
+    margin-right:5px;
+}
+
+
 
 /*portfolio.html main content*/
 .img-thumbnail {
